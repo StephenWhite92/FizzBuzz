@@ -23,9 +23,11 @@ def main():
         elif check5.is_integer():                                   #This utilizes is_intereger() method to check if our check5 variable is an integer, prints "Buzz" if true,
             print("Buzz")                                           #and increments num by 1.
             num += 1
+            
         elif num:                                                   #This catches the rest of the numbers that are not divisible by 3 or 5 and prints the associated number
             print(num)                                              #and increments num by 1.
             num += 1
+            
         else:                                                       #This allows the loop to proceed if none of the above statements are satisfied.
             pass
 
